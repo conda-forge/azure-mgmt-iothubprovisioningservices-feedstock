@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-iothubprovisioningservices
-  version: "2.0.0"
+  version: "2.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 1256522e99fc4f105aa5ba08513f6263ec762895f79c662fa20153c3d7b535d8
+  sha256: 39625a9f1ded2dccb88c60689d0265f262ea7fcfdd862249756236c96b56d93e
 
 build:
   number: 0
